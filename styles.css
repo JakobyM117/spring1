@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #18401b;
+    color: rgb(250, 245, 197);
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #371b09e2;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 1020px;
+    margin:0 auto;
+  }
+  
+  .item, #draggable {
+    background-color: rgb(245, 246, 204);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  @media screen and (max-width: 2000px) {
+    main {
+      flex-direction: column;
+    }
+  }
+  
